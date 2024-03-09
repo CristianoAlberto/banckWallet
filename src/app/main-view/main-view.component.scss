@@ -1,0 +1,86 @@
+h3{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#icon{
+    font-weight: bold;
+}
+ul{
+list-style: none;
+margin: -25px;
+}
+li{
+    margin: 10px;
+}
+.container-fluid{
+    background: #4640d8;
+    height: 200px;
+}
+.creditCard{
+    background: #ffbd00;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 25px;
+}
+.value{
+    font-weight: bold;
+    font-size:30px
+}
+.accountNumber{
+    font-weight: bold;
+    font-size: 12px;
+}
+.expirationDate{
+    font-weight: bold;
+    text-align: right;
+    font-size: 12px;
+}
+#cardNumber{
+color: rgb(174, 174, 174);
+padding: 25px;
+display: flex;
+}
+.iconFont{
+font-size: 30px;
+height: auto;
+width: auto;
+
+}
+.texFont{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.cardNumberContainer{
+    background:  rgb(222, 222, 222);
+    border-radius: 15px;
+    margin: 0 25px 0 25px;
+    height: 80px;
+}
+.cardNumberInfo{
+text-align: center;
+padding: 30px;
+font-weight: bold;
+}
+.transationContent{
+    padding: 25px;
+    background: #4640d8;
+    border-radius: 50px 50px 0 0;
+}
+.details{
+    color: white;
+font-size: 20px;
+margin: 4px 10px 0 0;
+}
+.amountSpent{
+    color: #ffbd00;
+    font-weight: bold;
+font-size: 20px;
+text-align: end;
+margin: 4px 10px 0 0;
+}
+

@@ -1,4 +1,5 @@
 import { Component, } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -6,4 +7,9 @@ import { Component, } from '@angular/core';
   templateUrl: './camara.component.html',
   styleUrls: ['./camara.component.scss']
 })
-export class CamaraComponent { }
+export class CamaraComponent {
+  constructor(private router: Router) { }
+  goMain() {
+    this.router.navigate(['/mainView']);
+  }
+}

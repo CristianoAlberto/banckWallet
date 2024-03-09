@@ -9,13 +9,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MainViewComponent } from './main-view/main-view.component';
+import { CamaraComponent } from './camara/camara.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     LandingPageComponent,
-    MainViewComponent
+    MainViewComponent,
+    CamaraComponent
   ],
   imports: [
     BrowserModule,

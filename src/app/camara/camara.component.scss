@@ -11,10 +11,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px; /* ajuste conforme necessário */
-    height: 300px; /* ajuste conforme necessário */
-    background-color: rgba(49, 49, 49, 0.5); /* cor do quadrado com transparência */
-    z-index: 999; /* certifique-se de que o quadrado esteja acima do vídeo da webcam */
+    width: 300px; 
+    height: 300px; 
+    background-color: rgba(49, 49, 49, 0.5);
+    z-index: 999;
 }
 
 .button-container {

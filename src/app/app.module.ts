@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatIconModule } from '@angular/material/icon';
+import { WebcamModule } from 'ngx-webcam';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +21,8 @@ import { MainViewComponent } from './main-view/main-view.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    MatIconModule
+    MatIconModule,
+    WebcamModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,13 @@
-
-.contentBody {
+.content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;   
+    height: 100vh; /* Alterado para ocupar toda a altura da tela */
+}
+
+.contentBody {
+    position: relative;
 }
 
 .overlay-square {
@@ -19,9 +23,10 @@
 
 .button-container {
     text-align: center;
-    margin-top: -40px;
+    margin-top: 20px; 
 }
-.btn-primary{
-    background-color: #4640d8;
-    margin-left: 10px;
+
+.btn-primary,
+.btn-warning {
+    margin-left: 15px;
 }

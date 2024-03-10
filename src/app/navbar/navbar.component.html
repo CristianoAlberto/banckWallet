@@ -1,1 +1,32 @@
-<p>navbar works!</p>
+<div style="padding-bottom: 50px;">
+    <nav class="navbar navbar-dark bg-dark" style="position: fixed; bottom: 50px; left: 0; width: 100%;">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" [class.active]="isActive('mainView')" aria-current="page" href="mainView">INÍCIO</a>
+            </li>
+            <li class="nav-item">
+                <a [class.active]="isActive('navbar')" class="nav-link" href="navbar">ACTIVIDADE</a>
+            </li>
+            <li class="nav-item">
+                <a [class.active]="isActive('')" class="nav-link" href="">MAIS</a>
+            </li>
+            <li class="nav-item">
+                <a [class.active]="isActive('')" class="nav-link" href="">SAIR</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="banner" style="position: fixed; bottom: 0; left: 0; width: 100%;" id="carouselExampleFade"
+    class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../../assets/bannerExample2.jpg" class="d-block w-100" style="max-height: 50px;" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../../assets/bannerExample1.jpg" class="d-block w-100" style="max-height: 50px;" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../../assets/bannerExample3.jpg" class="d-block w-100" style="max-height: 50px;" alt="...">
+        </div>
+    </div>
+</div>

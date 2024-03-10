@@ -22,6 +22,9 @@ li{
     background: #4640d8;
     height: 235px;
 }
+.contentHead{
+    margin-bottom: 100px;
+}
 .creditCard{
     background: #ffbd00;
     margin: 20px;
@@ -56,16 +59,22 @@ width: auto;
     font-size: 20px;
     margin-left: 20px;
 }
-.cardNumberContainer{
+.cardContainer{
     background:  rgb(222, 222, 222);
     border-radius: 5px;
    margin-top: 20px;
     height: 100px;
+    padding: 10px;
 }
-.cardNumberInfo{
-text-align: center;
-padding: 30px;
-font-weight: bold;
+.cardContainerInfo{
+    text-align: center;
+}
+#cardInfo{
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .transationContent{
     background: #4640d8;

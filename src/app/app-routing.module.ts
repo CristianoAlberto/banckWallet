@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DefinitionsComponent } from './definitions/definitions.component';
 import { MoreComponent } from './more/more.component';
 import { InformationComponent } from './information/information.component';
+import { ActivityComponent } from './activity/activity.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'information',
     component: InformationComponent
+  },
+  {
+    path: 'activity',
+    component: ActivityComponent
   }
 ];
 

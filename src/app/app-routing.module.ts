@@ -5,6 +5,9 @@ import { LoginComponent } from './login/login.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { CamaraComponent } from './camara/camara.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DefinitionsComponent } from './definitions/definitions.component';
+import { MoreComponent } from './more/more.component';
+import { InformationComponent } from './information/information.component';
 
 const routes: Routes = [
   {
@@ -24,8 +27,16 @@ const routes: Routes = [
     component: CamaraComponent
   },
   {
-    path: 'navbar',
-    component: NavbarComponent
+    path: 'definition',
+    component: DefinitionsComponent
+  },
+  {
+    path: 'more',
+    component: MoreComponent
+  },
+  {
+    path: 'information',
+    component: InformationComponent
   }
 ];
 

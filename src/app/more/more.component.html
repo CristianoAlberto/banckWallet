@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="">
+        <div class="userInfoContainer">
+            <div class="row">
+                <div class="col-8">
+                    <label id="userName">Cristiano Alberto</label>
+                    <label id="userNumber">+244 945 XXX XXX</label>
+                    <span id="userEmail">cristianoalberto908347&#64;gmail.com</span>
+                </div>
+                <div class="col-4">
+                    <div class="infoEdit">
+                        <label>Editar</label>
+                        <mat-icon>edit</mat-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav class="navbar">
+                <div class="row nav nav-tabs">
+                    <div class="col-6 nav-item">
+                        <a class="nav-link" [class.active]="isActive('information')" aria-current="page"
+                            href="information">INFORMAÇÃO</a>
+                    </div>
+                    <div class="col-6 nav-item">
+                        <a [class.active]="isActive('definition')" class="nav-link" href="definition">DEFINIÇÕES</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>

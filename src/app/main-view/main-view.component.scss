@@ -10,14 +10,6 @@ label{
 #icon{
     font-weight: bold;
 }
-ul{
-list-style: none;
-margin: -25px;
-}
-li{
-    margin: 0;
-    padding: 0;
-}
 .container-fluid{
     background: #4640d8;
     height: 205px;
@@ -72,22 +64,14 @@ width: auto;
 }
 #cardInfo{
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.transationContent{
-    background: #4640d8;
-    padding-right: 30px;
-    padding-left: 20px;
-    padding-top: 60px;
-    border-radius: 50px 50px 0 0;
-}
 .details{
-    color: white;
+    color: rgb(2, 2, 2);
 font-size: 20px;
-
 }
 .amountSpent{
     color: #ffbd00;
@@ -118,5 +102,18 @@ justify-content: center;
     background: #161617;
     border: none;
 }
-
+.btn-info{
+    background: #4640d8;
+    border: none;
+    color: white;
+}
+.transationContainer{
+    border-bottom: 0.5px solid #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+.transationContent{
+    font-weight: normal;
+margin-bottom: 10px;
+}
 

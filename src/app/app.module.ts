@@ -12,6 +12,7 @@ import { MainViewComponent } from './main-view/main-view.component';
 import { CamaraComponent } from './camara/camara.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DefinitionssComponent } from './definitionss/definitionss.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     LandingPageComponent,
     MainViewComponent,
     CamaraComponent,
-    NavbarComponent
+    NavbarComponent,
+    DefinitionssComponent
   ],
   imports: [
     BrowserModule,

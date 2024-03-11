@@ -31,10 +31,6 @@ const routes: Routes = [
     component: DefinitionsComponent
   },
   {
-    path: 'more',
-    component: MoreComponent
-  },
-  {
     path: 'information',
     component: InformationComponent
   }

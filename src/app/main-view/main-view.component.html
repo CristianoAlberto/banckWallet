@@ -91,11 +91,11 @@
             <div *ngIf="emptyCardState">
                 <div style="display: flex; justify-content: center;">
                     <button data-bs-toggle="modal" data-bs-target="#infoModal" class="btn btn-primary">
-                        ADCIONAR CARTÃO
+                        ADICIONAR CARTÃO
                     </button>
                 </div>
                 <div style="text-align: center; margin-top: 10px;">
-                    <p>Pode adcionar cartões de debito e crédito.</p>
+                    <p>Pode adicionar cartões de debito e crédito.</p>
                 </div>
             </div>
             <div *ngIf="!emptyCardState">
@@ -192,8 +192,28 @@
                         <div class="col-6">
                             <label class="transationContent">Tranporte</label>
                         </div>
+                        <div style="text-align: end; color: red;" class="col-6">
+                            <label style="font-weight: bold;" class="transationContent">$-8,20</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="transationContainer">
+                    <div class="row">
                         <div class="col-6">
-                            <label class="transationContent">$-3,45</label>
+                            <label class="transationContent">Comissão</label>
+                        </div>
+                        <div style="text-align: end; color: green;" class="col-6">
+                            <label style="font-weight: bold;" class="transationContent">$10,45</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="transationContainer">
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="transationContent">Alimentação</label>
+                        </div>
+                        <div style="text-align: end; color: red;" class="col-6">
+                            <label style="font-weight: bold;" class="transationContent">$-3,45</label>
                         </div>
                     </div>
                 </div>

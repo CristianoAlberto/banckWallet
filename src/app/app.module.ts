@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DefinitionsComponent } from './definitions/definitions.component';
 import { InformationComponent } from './information/information.component';
 import { MoreComponent } from './more/more.component';
+import { ActivityComponent } from './activity/activity.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MoreComponent } from './more/more.component';
     NavbarComponent,
     DefinitionsComponent,
     InformationComponent,
-    MoreComponent
+    MoreComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,

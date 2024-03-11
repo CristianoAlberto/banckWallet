@@ -2,10 +2,10 @@
     <div class="contentHead">
         <div class="title">
             <h3>MEUS CARTÕES</h3>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="false"
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-wrap="false"
                 (slid.bs.carousel)="checkEmptyCard()">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active">
                         <div style="background: red;" class="creditCard">
                             <div class="text-end">
                                 <i
@@ -26,8 +26,8 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="creditCard">
+                    <div class="carousel-item">
+                        <div class="creditCard" style="color: black;">
                             <div class="text-end">
                                 <i
                                     id="icon"><mat-icon>add_circle</mat-icon><mat-icon>lock</mat-icon><mat-icon>cancel</mat-icon></i>
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item">
                         <div style="background: #1e1c57;" class="creditCard">
                             <div class="text-end">
                                 <i
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item">
                         <div class="emptyCard">
                             <div>
                                 <mat-icon class="emptyCardInfo">add_circle_outline</mat-icon>
@@ -76,13 +76,9 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
             <div *ngIf="emptyCardState">

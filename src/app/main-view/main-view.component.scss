@@ -27,7 +27,8 @@ img{
     height: auto;
 }
 .imgContainer{
-    margin: 40px;
+    margin: 10px;
+    object-fit: cover;
 }
 .value{
     font-weight: bold;
@@ -86,9 +87,9 @@ text-align: center;
 }
 .emptyCard{
     background: rgb(182, 166, 166);
-    height: 206px;
-    margin: 20px;
-    border-radius: 25px;
+    height: 195px;
+    margin: 10px;
+    border-radius: 20px;
 align-items: center;
 display: flex;
 justify-content: center;

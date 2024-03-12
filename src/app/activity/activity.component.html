@@ -1,6 +1,40 @@
-<div>
+<div class="container-fluid">
     <div>
-        <p>activity works!</p>
+        <div class="activityTitle">
+            <h1>ACTIVIDADE</h1>
+            <div class="notificationContent">
+                <h2>4</h2>
+            </div>
+        </div>
+        <div class="activityBody">
+            <div>
+                <button class="btn btn-primary" [ngClass]="{'selected': historicoSelected}"
+                    (click)="selectButton('historico')">
+                    HISTÓRICO
+                </button>
+                <button class="btn btn-primary" [ngClass]="{'selected': pendentesSelected}"
+                    (click)="selectButton('pendentes')">
+                    PENDENTES
+                </button>
+
+            </div>
+        </div>
+        <div class="activityInfo">
+            <ul>
+                <li>
+                    2024-01-13 13:00 Levantamento
+                </li>
+                <li>
+                    2024-01-30 15:40 Pagamento Serv.
+                </li>
+                <li>
+                    2024-02-20 11:20 Pegamento Serv.
+                </li>
+                <li>
+                    2024-03-09 19:00 Levantamento
+                </li>
+            </ul>
+        </div>
     </div>
     <app-navbar></app-navbar>
 </div>

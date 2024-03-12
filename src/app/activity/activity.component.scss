@@ -1,0 +1,51 @@
+h1{
+    margin: 10px;
+}
+h2{
+    color: white;
+    margin: 10px;
+}
+ul{
+    list-style-type:none;
+    margin-top: 20px;
+    padding: 20px;
+}
+li{
+    border-bottom: 1px solid black;
+    padding: 0;
+margin: 0;
+margin-bottom: 20px;
+}
+.notificationContent{
+    background: orangered;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid{
+    padding: 0;
+}
+.activityTitle{
+    background: #e8e5e5;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.activityBody{
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    background: rgba(86, 83, 81, 0.518);
+    border: none;
+    margin: 10px;
+}
+.btn-primary:active{
+    background: rgba(86, 83, 81, 0.518);
+    border: none;
+}
+.selected {
+    background-color: orangered;
+    color: white;
+}

@@ -12,17 +12,22 @@ label{
 }
 .container-fluid{
     background: #4640d8;
-    height: 205px;
+    height: 190px;
 }
 .contentHead{
     margin-bottom: 100px;
 }
 .creditCard{
-    background: #ffbd00;
-    margin: 20px;
-    border-radius: 25px;
-    padding: 25px;
+width: 100%;
+    height: auto;
     color: rgb(255, 255, 255);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.imgContainer{
+    margin: 40px;
 }
 .value{
     font-weight: bold;

@@ -4,72 +4,18 @@
             <h3>MEUS CARTÕES</h3>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-wrap="false"
                 (slid.bs.carousel)="checkEmptyCard()" data-bs-touch="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div style="background: red;" class="creditCard">
-                            <div class="text-end">
-                                <i> <mat-icon>more_horiz</mat-icon></i>
-                            </div>
-                            <div class="">
-                                <label>Saldo</label>
-                                <p class="value">$ 1.000,00</p>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p class="accountNumber">5213 6450 5408 7516</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="expirationDate">07/22</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="creditCard" style="color: black;">
-                            <div class="text-end">
-                                <i> <mat-icon>more_horiz</mat-icon></i>
-                            </div>
-                            <div class="">
-                                <label>Saldo</label>
-                                <p class="value">$ 1.000,00</p>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p class="accountNumber">5213 6450 5408 7516</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="expirationDate">07/22</p>
-                                    </div>
-                                </div>
+                        <div class="creditCard">
+                            <div class="imgContainer">
+                                <img src="../../assets/cardExample1.png">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div style="background: #1e1c57;" class="creditCard">
-                            <div class="text-end">
-                                <i> <mat-icon>more_horiz</mat-icon></i>
-                            </div>
-                            <div class="">
-                                <label>Saldo</label>
-                                <p class="value">$ 1.000,00</p>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p class="accountNumber">5213 6450 5408 7516</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="expirationDate">07/22</p>
-                                    </div>
-                                </div>
+                    <div class="carousel-item active">
+                        <div class="creditCard">
+                            <div class="imgContainer">
+                                <img src="../../assets/cardExample2.png">
                             </div>
                         </div>
                     </div>

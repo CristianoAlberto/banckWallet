@@ -1,25 +1,23 @@
-<div class="container-fluid">
-    <div>
-        <div class="activityTitle">
-            <h1>ACTIVIDADE</h1>
-            <div class="notificationContent">
-                <h2>4</h2>
-            </div>
-        </div>
-        <div class="activityBody">
-            <div>
-                <button class="btn btn-primary" [ngClass]="{'selected': historicoSelected}"
+<div>
+    <div class="activityTitle">
+        <h1>ACTIVIDADE</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <button class="btn btn-primary form-control" [ngClass]="{'selected': historicoSelected}"
                     (click)="selectButton('historico')">
                     HISTÓRICO
                 </button>
-                <button class="btn btn-primary" [ngClass]="{'selected': pendentesSelected}"
+            </div>
+            <div class="col-6">
+                <button class="btn btn-primary form-control" [ngClass]="{'selected': pendentesSelected}"
                     (click)="selectButton('pendentes')">
                     PENDENTES
                 </button>
-
             </div>
         </div>
-        <div class="activityInfo">
+        <div *ngIf="historicoSelected" class="activityInfo">
             <ul>
                 <li>
                     2024-01-13 13:00 Levantamento
@@ -34,6 +32,9 @@
                     2024-03-09 19:00 Levantamento
                 </li>
             </ul>
+        </div>
+        <div *ngIf="!historicoSelected" class="activityInfo">
+            <label>Não tem actividades pendentes</label>
         </div>
     </div>
     <app-navbar></app-navbar>

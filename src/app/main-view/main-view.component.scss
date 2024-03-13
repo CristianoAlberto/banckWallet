@@ -73,7 +73,12 @@ width: auto;
     background:  rgb(222, 222, 222);
     border-radius: 5px;
     height: 100px;
+    width: 110px;
     margin-top: 10px;
+padding: 15px;
+}
+.row{
+margin-right: 0;
 }
 .cardContainerInfo{
     text-align: center;
@@ -130,8 +135,5 @@ justify-content: center;
 .transationContent{
     font-weight: normal;
 margin-bottom: 5px;
-}
-.footerContent{
-    margin-top: 100px;
 }
 

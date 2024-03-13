@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="contentHead">
         <div class="title">
-            <h3>MEUS CARTÕES</h3>
+            <!-- <h3>MEUS CARTÕES</h3> -->
             <div id="carouselExampleInterval" class="carousel slide" data-bs-wrap="false"
                 (slid.bs.carousel)="checkEmptyCard()" data-bs-touch="true">
                 <div class="carousel-inner">
@@ -128,7 +128,10 @@
             </div>
         </div>
     </div>
-    <app-navbar></app-navbar>
+    <div class="footerContent">
+        <app-banner></app-banner>
+        <app-navbar></app-navbar>
+    </div>
 </div>
 <!-- Modais -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -14,13 +14,14 @@ label{
     background: #4640d8;
     height: 190px;
 }
-.contentHead{
-    margin-bottom: 100px;
-}
 .creditCard{
 width: 100%;
     height: auto;
     color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 4px;
 }
 img{
     width: 100%;
@@ -28,7 +29,7 @@ img{
 }
 .imgContainer{
     margin: 10px;
-    object-fit: cover;
+  width: 84%; 
 }
 .overlayText {
     position: absolute;
@@ -71,8 +72,8 @@ width: auto;
 .cardContainer{
     background:  rgb(222, 222, 222);
     border-radius: 5px;
-   margin-top: 40px;
     height: 100px;
+    margin-top: 10px;
 }
 .cardContainerInfo{
     text-align: center;
@@ -129,5 +130,8 @@ justify-content: center;
 .transationContent{
     font-weight: normal;
 margin-bottom: 5px;
+}
+.footerContent{
+    margin-top: 50px;
 }
 

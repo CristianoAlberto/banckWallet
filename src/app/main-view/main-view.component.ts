@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { InactivityService } from '../service/inactivity.service';
 @Component({
   selector: 'app-main-view',
   templateUrl: './main-view.component.html',

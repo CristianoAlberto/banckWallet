@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InactivityService } from './service/inactivity.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'banckWallet';
+  constructor(private inactivityService: InactivityService) { }
 }

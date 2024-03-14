@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { WebcamModule } from 'ngx-webcam';
 import { MatIconModule } from '@angular/material/icon';
@@ -17,7 +17,11 @@ import { InformationComponent } from './information/information.component';
 import { MoreComponent } from './more/more.component';
 import { ActivityComponent } from './activity/activity.component';
 import { BannerComponent } from './banner/banner.component';
+import { CardsCarouselComponent } from './cards-carousel/cards-carousel.component';
 
+import { register as registerSwiperElements } from 'swiper/element/bundle';
+
+registerSwiperElements();
 
 @NgModule({
   declarations: [
@@ -31,18 +35,20 @@ import { BannerComponent } from './banner/banner.component';
     InformationComponent,
     MoreComponent,
     ActivityComponent,
-    BannerComponent
+    BannerComponent,
+    CardsCarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     WebcamModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [
     provideAnimationsAsync()
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

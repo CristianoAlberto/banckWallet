@@ -1,6 +1,6 @@
 h3{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 5px;
     color: white;
 }
 label{
@@ -21,8 +21,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 20px;
-
+margin-top: 40px;
 }
 img{
     width: 100%;
@@ -31,16 +30,6 @@ img{
 .imgContainer{
     // margin: 5px;
   width: 84%; 
-}
-.overlayText {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 17px;
-    font-weight:600;
-    text-align: center;
 }
 .value{
     font-weight: bold;
@@ -70,27 +59,7 @@ width: auto;
     font-size: 20px;
     margin-left: 20px;
 }
-.cardContainer{
-    background:  rgb(222, 222, 222);
-    border-radius: 5px;
-    height: 100px;
-    width: 110px;
-    margin-top: 5px;
-padding: 15px;
-}
-.row{
-margin-right: 0;
-}
-.cardContainerInfo{
-    text-align: center;
-}
-#cardInfo{
-    font-weight: normal;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .details{
     color: rgb(2, 2, 2);
 font-size: 20px;
@@ -101,21 +70,7 @@ font-size: 20px;
 font-size: 20px;
 text-align: center;
 }
-.emptyCard{
-    background: rgb(182, 166, 166);
-    height: 195px;
-    margin: 10px;
-    border-radius: 20px;
-align-items: center;
-display: flex;
-justify-content: center;
 
-}
-.emptyCardInfo{
-    font-size: 100px;
-    height: auto;
-    width: auto;
-}
 .btn-primary{
     background: #57575b;
     border: none;

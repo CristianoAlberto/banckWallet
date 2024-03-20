@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "banckWallet:build:production"
+              "buildTarget": "bankWallet:build:production"
             },
             "development": {
-              "buildTarget": "banckWallet:build:development"
+              "buildTarget": "bankWallet:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "banckWallet:build"
+            "buildTarget": "bankWallet:build"
           }
         },
         "test": {
